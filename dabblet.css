@@ -1,0 +1,143 @@
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	border: 0px;
+	width: 50%;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #001452;
+	color: #ffffff;
+}
+
+.content {
+	margin-left: 0px;
+	border: 0px;
+	width:50%;
+}
+
+#footer {
+	border: 0px;
+	width: 50%;
+	text-align:center;
+	background-color: #001452;
+	color: #ffffff;
+}
+
+#email {
+	color: #ffffff;
+}
+
+#email:hover {
+	color: #cc3300;
+}
+
+#footer p {
+	display: inline-block;
+	margin-right: 90px;
+}
+
+.content ul {
+	font-size: 21px;
+	font-weight: 700;
+	color: #660000;
+	padding-left: 0px;
+}
+
+.content ul ul {
+	font-size: 18px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.content ul ul ul {
+	font-size: 15px;
+}
+
+.content ul ul ul ul {
+	font-size: 12px;
+}
+
+div div {
+	padding: 25px;
+	background-color: #85ADFF;
+}
+
+div div > li {
+	list-style-type: none;
+}
+
+div div div {
+	padding: 20px;
+	background-color: #C2D6FF;
+	border-radius: 5px;
+	margin: 10px 0px 10px 0px;
+	width: 93%;
+	position: relative;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000066;
+}
+
+a:hover {
+	color: #339933;
+}
+
+.place {
+	position: absolute;
+	top: 0.1px;
+	right: 20px;
+	z-index: 1;
+}
+
+.duration {
+	font-style: italic;
+	font-size: 15px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	z-index: 1;
+}
+
+.activities li {
+	font-weight: 600;
+}
+span {
+	color: #004700;
+	font-weight: 400;
+}
+
+span span {
+	font-style: italic;
+	color: #006500;
+}
+
+.education ul ul ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.education ul {
+	padding: 20px;
+	background-color: #C2D6FF;
+	border-radius: 5px;
+	margin: 10px 0px 10px 0px;
+	width: 93%;
+	position: relative;
+}
+
+#undergrad {
+	list-style-type: none;
+}
+/*
+* {
+	border: 2px dashed red;
+}
+*/
